@@ -1,0 +1,32 @@
+{  
+    "name": "Deepin",  
+    "version": "1.0",  
+    "size":"250MB",
+    "Priority":"optional",
+    "Section":"sounds",
+    "Maintainer":"cht",
+    "Architecture":"amd64",
+    "dependence":"qt5-default",
+    "dev-dependence":"qt5-default fakeroot",
+    "Description":"test",
+    "source":"git:sterest",
+    "files":  
+    [  
+        {
+            "git":
+            [
+                {
+                    "url":"https://github.com/chen244/thesnake.git",
+                    "do":"cd thesnake && qmake && make",
+                    "install":
+                    [
+                        {
+                            "run":"thesnake/snakke",
+                            "location":"/opt/durapps/thesnake"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}  

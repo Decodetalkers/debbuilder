@@ -1,0 +1,14 @@
+[
+ {
+  "directory": "/home/cht/cpp/debbuilder",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-ljsoncpp",
+   "main.cpp",
+   "-o",
+   "main"
+  ],
+  "file": "main.cpp"
+ }
+]
